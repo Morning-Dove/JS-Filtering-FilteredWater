@@ -1,0 +1,56 @@
+* {
+    color:#000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    background-image: linear-gradient(
+        to bottom right,
+        #4affde 0%, #5b9dff 40%, #69fc8b 60%, #f1ff34 100%
+    );
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.danfo{
+    font-family: "Danfo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+    font-variation-settings:
+      "ELSH" 0;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: "Danfo";
+    font-size: 10vh;
+    letter-spacing: 5px;
+}
+
+button{
+    border:none;
+    background-image: linear-gradient(
+        to bottom right,
+        #69fc8b 0%, #f1ff34 40%, #4affde 60%, #5b9dff 100%
+    );
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5vh;
+    font-weight: bold;
+}

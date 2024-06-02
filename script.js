@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 function filterWater(){
-    let filterOutStr = prompt("What would you like to filter out of your water? Please write it in the box below seperated by commas. ");
+    let filterOutStr = prompt("What would you like to filter out of your water? \nPlease write it in the box below seperated by commas. ");
     let filterOut = filterOutStr.split(",").map(item => item.trim());
     const filteredWater = waterInput.filter(item => !filterOut.includes(item));
     

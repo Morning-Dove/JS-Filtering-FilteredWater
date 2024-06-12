@@ -1,3 +1,5 @@
+View through GitHub Pages: https://morning-dove.github.io/JS-Filtering-FilteredWater/
+
 # Filtered Water Project
 This project is a simple web application that allows users to filter out contaminants from a list of water contaminants. The user can specify which contaminants to remove, and the application will display the filtered results.
 
